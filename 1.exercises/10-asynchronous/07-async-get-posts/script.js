@@ -11,7 +11,6 @@
 
 (() => {
   document.getElementById("run").addEventListener("click", async () => {
-    console.log("test");
     let r = await window.lib.getPosts();
     console.log(r);
   });

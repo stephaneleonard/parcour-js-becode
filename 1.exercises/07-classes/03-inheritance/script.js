@@ -17,7 +17,7 @@
   }
 
   class Dog extends Animal {
-    static greeting =  'Hello'
+    static greeting = "Hello";
     constructor(name) {
       super(Animal);
       this.name = name;
@@ -25,7 +25,7 @@
   }
 
   class Cat extends Animal {
-    static greeting =  'Hi'
+    static greeting = "Hi";
     constructor(name) {
       super(Animal);
       this.name = name;

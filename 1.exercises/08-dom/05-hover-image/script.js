@@ -16,13 +16,13 @@
     document.getElementsByTagName("img")[0].src = document
       .getElementsByTagName("img")[0]
       .getAttribute("data-hover");
-    document.getElementsByTagName("img")[0].setAttribute('data-hover' , save);
+    document.getElementsByTagName("img")[0].setAttribute("data-hover", save);
   });
   document.getElementsByTagName("img")[0].addEventListener("mouseout", () => {
     let save = document.getElementsByTagName("img")[0].src;
     document.getElementsByTagName("img")[0].src = document
       .getElementsByTagName("img")[0]
       .getAttribute("data-hover");
-      document.getElementsByTagName("img")[0].setAttribute('data-hover' , save);
+    document.getElementsByTagName("img")[0].setAttribute("data-hover", save);
   });
 })();
