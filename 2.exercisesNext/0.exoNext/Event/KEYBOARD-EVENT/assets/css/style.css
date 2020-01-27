@@ -1,0 +1,33 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#up{
+    background-color: black;
+}
+
+#down{
+    background-color: blue;
+}
+
+#left{
+    background-color: red;
+}
+
+#right{
+    background-color: green;
+}
+
+.hilight{
+    opacity: 0.5;
+}

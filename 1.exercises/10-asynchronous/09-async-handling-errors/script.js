@@ -16,9 +16,8 @@
     try {
       let r = await window.lib.getPersons();
       console.log(r);
-    }
-    catch(e){
-        console.error(e);
+    } catch (e) {
+      console.error(e);
     }
   });
 })();
